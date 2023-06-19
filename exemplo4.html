@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Functions</h1>
+<p>Usando a função como variavel:</p>
+
+<p id="funcao"></p>
+
+<script>
+let text = "A tempemperatura é de " + toCelsius(77) + " Celsius.";
+document.getElementById("funcao").innerHTML = text;
+
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+} 
+</script>
+
+</body>
+</html>

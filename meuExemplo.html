@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função em JavaScript</title>
+</head>
+<body>
+    <h1>Calculando o dobro de um número:</h1>
+
+<p id="fun"></p>
+
+<script>
+
+let num = window.prompt("Digite um número:")
+
+function myFunction(num) {
+  return num * 2;
+}
+
+let result = myFunction(num);
+document.getElementById("fun").innerHTML = result;
+</script>
+</body>
+</html>

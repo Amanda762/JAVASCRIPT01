@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Functions</h1>
+
+<p>variavel Local: fora de myFunction carName é indefinido</p>
+
+<p id="funcao1"></p>
+<p id="funcao2"></p>
+
+<script>
+let text = "Outside: " + typeof carName;
+document.getElementById("funcao1").innerHTML = text;
+
+function myFunction() {
+  let carName = "Volvo";
+  let text = "Inside: " + typeof carName + " " + carName; 
+  document.getElementById("funcao2").innerHTML = text;
+}
+
+myFunction();
+</script>
+
+</body>
+</html>
